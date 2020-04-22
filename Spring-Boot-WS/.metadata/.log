@@ -29,3 +29,72 @@ Binding(COMMAND+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-04-22 15:22:52.209
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:27.907
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:27.907
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@13f255ed[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:27.909
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:27.945
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:28.808
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:28.809
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@13f255ed[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:28.809
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.768
+!MESSAGE Boot LS startup time from start to initialized: 1959ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.815
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vpsPsEPNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.818
+!MESSAGE subscribing to classpath changes: sts4.classpath.vpsPsEPN isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.820
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.823
+!MESSAGE subsribers = {sts4.classpath.vpsPsEPN=Send Classpath Notifications(451)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.823
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.824
+!MESSAGE project Shop-IT ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.825
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.825
+!MESSAGE Preparing classpath changed notification Shop-IT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.825
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vpsPsEPN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.825
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.830
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.830
+!MESSAGE buffering callback sts4.classpath.vpsPsEPN Shop-IT false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.831
+!MESSAGE executing callback sts4.classpath.vpsPsEPN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-22 15:23:30.859
+!MESSAGE executing callback sts4.classpath.vpsPsEPN SUCCESS [done]
