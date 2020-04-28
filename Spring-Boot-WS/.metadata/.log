@@ -3163,3 +3163,57 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:05:11.483
 !MESSAGE executing callback sts4.classpath.UjIGBtVD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.140
+!MESSAGE Preparing classpath changed notification 7-Boot-ORM-MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.142
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.142
+!MESSAGE buffering callback sts4.classpath.UjIGBtVD 7-Boot-ORM-MongoDB false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.142
+!MESSAGE executing callback sts4.classpath.UjIGBtVD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.146
+!MESSAGE executing callback sts4.classpath.UjIGBtVD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.241
+!MESSAGE Preparing classpath changed notification 7-Boot-ORM-MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.242
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.245
+!MESSAGE classpath=75 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.246
+!MESSAGE buffering callback sts4.classpath.UjIGBtVD 7-Boot-ORM-MongoDB false 75
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.247
+!MESSAGE executing callback sts4.classpath.UjIGBtVD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:58:53.251
+!MESSAGE executing callback sts4.classpath.UjIGBtVD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:59:02.334
+!MESSAGE Preparing classpath changed notification 7-Boot-ORM-MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:59:02.334
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:59:02.336
+!MESSAGE classpath=75 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:59:02.337
+!MESSAGE buffering callback sts4.classpath.UjIGBtVD 7-Boot-ORM-MongoDB false 75
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:59:02.338
+!MESSAGE executing callback sts4.classpath.UjIGBtVD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-28 15:59:02.341
+!MESSAGE executing callback sts4.classpath.UjIGBtVD SUCCESS [done]
