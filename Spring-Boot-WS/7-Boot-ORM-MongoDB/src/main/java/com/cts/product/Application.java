@@ -16,10 +16,10 @@ public class Application {
 		ProductServiceImpl ps=ac.getBean(ProductServiceImpl.class);
 		
 		Product prod=new Product();
-		prod.setId(100);
-		prod.setName("Jeans");
-		prod.setDescription("Blue");
-		prod.setPrice(3434);
+		prod.setId(101);
+		prod.setName("Mobile");
+		prod.setDescription("Samsung S20");
+		prod.setPrice(12000);
 		
 		ps.saveProduct(prod);
 		
