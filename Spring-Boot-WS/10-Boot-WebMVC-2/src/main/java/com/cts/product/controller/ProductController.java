@@ -62,6 +62,7 @@ public class ProductController {
 		List<Product> prods=ps.findAll();
 		data.addAttribute("products", prods);
 		return "products";
+		
 	}
 	
 	

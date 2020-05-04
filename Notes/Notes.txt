@@ -1,0 +1,29 @@
+notes
+---------------
+Web Services 
+---------------
+
+1. SOAP service
+2. REST service
+
+1. SOAP service
+----------------------------------------------------------------
+-> Data exchanges in the format of XML
+
+-> JAX-WS
+
+2. REST service
+----------------------------------------------------------------
+-> exchange data through text / json 
+-> from Java Implementstion (SUN)
+-> from Spring Framework implementation
+
+from Java Implementstion (SUN) (JAX-RS)
+----------------------------------------------------------------
+1. Jersey
+2. Rest Easy
+
+
+Spring Framework
+-----------------
+Spring Rest services

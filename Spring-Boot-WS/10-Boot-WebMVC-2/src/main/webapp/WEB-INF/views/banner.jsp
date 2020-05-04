@@ -6,12 +6,12 @@
 <meta charset="UTF-8">
 
 
-<title>Insert title here</title>
+<title>Praveen's APP</title>
 </head>
-<body class="container">
+<body>
 
 	<div class="alert alert-info text-center">
-		<h1>Welcome Application</h1>
+		<h1>Welcome to Praveen's Application</h1>
 
 	</div>
 

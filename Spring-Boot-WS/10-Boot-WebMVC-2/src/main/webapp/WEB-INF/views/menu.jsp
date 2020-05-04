@@ -11,7 +11,7 @@
 	crossorigin="anonymous">
 <title>Insert title here</title>
 </head>
-<body class="container">
+<body>
 
 <ul class="nav justify-content-center">
   <li class="nav-item">

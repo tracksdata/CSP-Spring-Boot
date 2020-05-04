@@ -2,7 +2,13 @@
 
 // fetc api
 
-setInterval(()=>{
+setTimeout(()=>{
+console.log('============> After 4 seconds <=================');
+document.getElementById("data").innerHTML = 'Time out ....'; 
+
+},4000)
+
+
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => {
@@ -12,9 +18,10 @@ setInterval(()=>{
     })
 
 
-},1000)
 
-
+  setInterval(() => {
+      
+  }, interval);
 
 
 // plan js code 

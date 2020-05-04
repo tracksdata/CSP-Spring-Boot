@@ -14,19 +14,37 @@
 <body class="container">
 
 	<jsp:include page="banner.jsp" />
+	<jsp:include page="menu.jsp"/>
 
 	<hr />
 
-	<ul class="nav flex-column">
-		<li class="nav-item"><a class="nav-link active" href="./">Home</a>
-		</li>
-		<li class="nav-item"><a class="nav-link" href="./loadProductForm">Add
-				Product</a></li>
-		<li class="nav-item"><a class="nav-link" href="./listAll">Display
-				Products</a></li>
-		<li class="nav-item"><a class="nav-link disabled" href="#"
-			tabindex="-1" aria-disabled="true">Find Product</a></li>
-	</ul>
+	<div class="row">
+		<div class="col-2 col-md-2 col-sm-2 bg-light">
+
+			<ul class="nav flex-column">
+				<li class="nav-item"><a class="nav-link active" href="./">Home</a>
+				</li>
+				<li class="nav-item"><a class="nav-link"
+					href="./loadProductForm">Add Product</a></li>
+				<li class="nav-item"><a class="nav-link" href="./listAll">Display
+						Products</a></li>
+				<li class="nav-item"><a class="nav-link disabled" href="#"
+					tabindex="-1" aria-disabled="true">Find Product</a></li>
+			</ul>
+		</div>
+
+		<div class="col-10 col-md-10 col-sm-10">
+			<div class="jumbotron">
+				<h1 class="display-4">Advanced Java Spring Boot Application</h1>
+				<p class="lead">This is sample application on advanced spring boot web mvc application for Cognizant technologies associates.</p>
+				<hr class="my-4">
+				<p>write to me any queries to praveen.somireddy@cognizant.com</p>
+				<a class="btn btn-primary btn-lg" href="#" role="button">Sample Button</a>
+			</div>
+		</div>
+
+	</div>
+
 
 
 

@@ -6,57 +6,75 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body class="container align-items-center">
 	<jsp:include page="banner.jsp" />
 	<jsp:include page="menu.jsp" />
 
 	<hr />
 
-	<div class="col-4 col-sm-4 col-md-4">
+	
 
-		<div class="card">
+	<div class="row">
+		<div class="col-2 col-md-2 col-sm-2 bg-light">
 
-			<div class="card-header bg-success">Product Form</div>
-			<div class="card-body">
+			<ul class="nav flex-column">
+				<li class="nav-item"><a class="nav-link active" href="./">Home</a>
+				</li>
+				<li class="nav-item"><a class="nav-link"
+					href="./loadProductForm">Add Product</a></li>
+				<li class="nav-item"><a class="nav-link" href="./listAll">Display
+						Products</a></li>
+				<li class="nav-item"><a class="nav-link disabled" href="#"
+					tabindex="-1" aria-disabled="true">Find Product</a></li>
+			</ul>
+		</div>
+		<div class="col-4 col-sm-8 col-md-6 ">
 
-				<form action="saveProductV2" method="post" autocomplete="off">
+			<div class="card">
 
-					<div class="form-group">
-						<lable>Product Id</lable>
-						<input name="id" class="form-control" />
-					</div>
+				<div class="card-header bg-success">Product Form</div>
+				<div class="card-body">
 
-					<div class="form-group">
-						<lable>Product Name</lable>
-						<input name="name" class="form-control" />
-					</div>
+					<form action="saveProductV2" method="post" autocomplete="off"
+						class="justify-content-center">
 
+						<div class="form-group">
+							<lable>Product Id</lable>
+							<input type="number" name="id" class="form-control" required="required" placeholder="like 123" />
+						</div>
 
-					<div class="form-group">
-						<lable>Product Price</lable>
-						<input name="price" class="form-control" />
-					</div>
-
-					<div class="form-group">
-						<lable>Product Description</lable>
-						<textarea name="description" class="form-control"></textarea>
-					</div>
-					
-					<div class="form-group">
-						<span>${msg}</span>
-					</div>
-
-					<div class="text-center">
-						<button class="btn btn-primary">Save</button>
-						<button class="btn btn-danger">Cancel</button>
-					</div>
+						<div class="form-group">
+							<lable>Product Name</lable>
+							<input name="name" class="form-control" required="required" placeholder="like Laptop" />
+						</div>
 
 
+						<div class="form-group">
+							<lable>Product Price</lable>
+							<input type="number" name="price" class="form-control" required="required" placeholder="like 55000" />
+						</div>
 
-				</form>
+						<div class="form-group">
+							<lable>Product Description</lable>
+							<textarea name="description" class="form-control" required="required" placeholder="like Dell Intel"></textarea>
+						</div>
+
+						<div class="form-group">
+							<span>${msg}</span>
+						</div>
+
+						<div class="text-center">
+							<button class="btn btn-primary">Save</button>
+							<button class="btn btn-danger">Cancel</button>
+						</div>
+
+
+
+					</form>
+
+				</div>
 
 			</div>
-
 		</div>
 	</div>
 
